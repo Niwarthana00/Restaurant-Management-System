@@ -1,0 +1,148 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+
+.heading{
+    color: #c5c5c5;
+    margin-bottom: 60px;
+}
+
+.text-color{
+    color: #000000;
+}
+
+
+@media (min-width: 768px) {
+    .col-md-3 {
+        flex: 0 0 auto;
+        width: 25%;
+        margin-bottom: 36px;
+    }
+}
+  .btn.btn-primary {
+    border: 1px solid #ffbd07;
+    border-radius: 40px;
+    color: #040404 !important;
+    padding: 10px 25px !important;
+    background-color: #d89c34;
+  }
+  .border-secondary {
+    border-color: #ffb524 !important;
+    background: black;
+    /* color: white; */
+}
+
+  .btn.btn-primary:hover {
+    border: 1px solid #ffbd07;
+    border-radius: 40px;
+    color: #ffffff !important;
+    padding: 10px 25px !important;
+    background-color: #000000;
+  }  
+
+.navbar a.btn{
+    font-weight: 600;
+    transition: .5s;
+    background-color: transparent;
+    border: 1px solid #ffbd07;
+    border-radius: 40px;
+    color: #ffbd07 !important;
+    padding: 10px 25px !important;
+
+}
+
+.navbar a:hover.btn{
+    background-color: #ffbd07; 
+    color: #ffffff !important;
+
+}
+
+.btn.add-cart {
+    background-color: #ffbd07;
+  
+  }
+
+.btn.border-secondary {
+    transition: 0.5s;
+}
+
+.btn.border-secondary:hover {
+    background: #ffffff;
+    color: #000000 !important;
+}
+.text-contnttitle h1
+{
+  color: rgb(195, 195, 195);
+}
+
+.text-contnttitle h4
+{
+  color: rgb(255, 255, 255);
+}
+
+
+.fruite .fruite-item {
+    transition: 0.5s;
+}
+.fruite .fruite-item:hover {
+    box-shadow: 0 0 20px #ffbd07;
+}
+
+
+.fruite .fruite-item .fruite-img {
+    overflow: hidden;
+    transition: 0.5s;
+    border-radius: 10px 10px 0 0;
+}
+
+.fruite .fruite-item .fruite-img img {
+    transition: 0.5s;
+}
+
+.fruite .fruite-item .fruite-img img:hover {
+    transform: scale(1.3);
+}
+
+.add-cart{
+    color: black !important;
+}
+
+
+.fruite-img img{
+    max-height: 200px;
+}
+.item-card{
+    background-color: #ffffff;
+}
+
+ .navbar-toggle {
+    display: none;
+} 
+.navbar-toggler {
+    display: none;
+}
+
+@media (max-width: 992px) {
+    #navbarNav {
+        position: absolute;
+        background: white;
+        width: 100%;
+        top: 60px;
+        z-index: 50;
+    }
+    .navbar a{
+        color: #424242 !important;
+    }
+    .navbar-toggle {
+        display:block;
+    }
+    .navbar-toggler {
+        display: block;
+    }
+    .navbar-light .navbar-toggler {
+        color: rgb(255 255 255);
+        border-color: rgb(255 255 255 / 86%);
+    }
+}
+

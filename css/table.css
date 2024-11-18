@@ -1,0 +1,133 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #181818;
+    margin: 0;
+    padding: 0;
+}
+
+.reservation-section {
+    background-color: #000000;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.reservation-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+.reservation-title {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 24px;
+    color: #DAA520;
+    margin-bottom: 10px;
+}
+
+.reservation-heading {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #d9d9d9;
+}
+
+.reservation-form .form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.reservation-form input,
+.reservation-form textarea {
+    width: 32%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.reservation-form textarea {
+    width: 100%;
+    height: 100px;
+    resize: none;
+}
+
+.reservation-form button {
+    background-color: #fab300;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.reservation-form button:hover {
+    background-color: #2c2c2b;
+}
+
+.form-row input{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 8px;
+    color: black;
+ }
+
+    .reservation-form .form-row {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+    .reservation-form .form-row select,
+    .reservation-form .form-row input,
+    .reservation-form .form-row textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .reservation-form button {
+        padding: 10px 20px;
+        background-color: #ffc107;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+    }
+    .reservation-form button:hover {
+        background-color: #2f2e2a;
+    }
+    .combo{
+        color: #454544;
+    }
+
+    .reservation-form .form-row {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+    .reservation-form .form-row select,
+    .reservation-form .form-row input,
+    .reservation-form .form-row textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .reservation-form button {
+        padding: 10px 20px;
+        background-color: #ffc107;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+    }
+    .reservation-form button:hover {
+        background-color: #e0a800;
+    }
+    .combo{
+        color: black; 
+    }
